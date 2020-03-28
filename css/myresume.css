@@ -155,7 +155,7 @@ section.resume-section .resume-item .resume-date {
 
 .bg-primary {
   background-color: #FFD6C4 !important;
-  background-image:url("elsaden.github.io/img/argyle.png");
+  background-image:img src=url("img/argyle.png")alt="argyle.png";
 }
 
 .text-primary {
