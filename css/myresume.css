@@ -155,6 +155,8 @@ section.resume-section .resume-item .resume-date {
 
 .bg-primary {
   background-color: #FFD6C4 !important;
+  background-image: url('img/ag-square.png');
+  background-repeat: no-repeat;
 }
 
 .text-primary {
