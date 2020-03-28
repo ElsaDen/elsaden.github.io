@@ -85,6 +85,7 @@ p.lead {
 
 #sideNav .navbar-toggler:focus {
   outline-color: #FFD6C4;
+  background-image: url('img/argyle.png');
 }
 
 @media (min-width: 992px) {
@@ -155,8 +156,6 @@ section.resume-section .resume-item .resume-date {
 
 .bg-primary {
   background-color: #FFD6C4 !important;
-  background-image: url('img/argyle.png');
-  background-repeat: no-repeat;
 }
 
 .text-primary {
