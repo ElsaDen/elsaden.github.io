@@ -57,6 +57,31 @@ a:active, a:focus, a:hover {
 	font-size: 1.2rem;
 }
 
+.table{
+                display: table; 
+                border-collapse: collapse;
+                width: 400px;
+                height: 200px;
+            }
+            .tr{
+                display: table-row;
+                height: 100px;
+            }
+            .td{
+                display: table-cell;
+                width: 100px;
+                text-align: center;
+                vertical-align: middle;
+                border: solid 1px red;
+                table-layout: fixed;
+            }
+            .table .td img{
+                width: 100px;
+                height: 100px;
+                display:block;
+            }
+
+
 .timeline {
   position: relative;
   margin: 0 auto;
