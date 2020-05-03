@@ -57,30 +57,16 @@ a:active, a:focus, a:hover {
 	font-size: 1.2rem;
 }
 
-.table{
-                display: table; 
-                border-collapse: collapse;
-                width: 800px;
-                height: 400px;
-            }
-            .tr{
-                display: table-row;
-                height: 200px;
-            }
-            .td{
-                display: table-cell;
-                width: 200px;
-                text-align: center;
-                vertical-align: middle;
-                border: solid 5px #FFD6C4;
-                table-layout: fixed;
-		background-image: url("gallery01.jpg");
-            }
-            .table .td img{
-                width: 200px;
-                height: 200px;
-                display:block;
-            }
+.div{ 
+	display: table; 
+        border-collapse: collapse;
+        width: 800px;
+        height: 600px;
+}
+.img{
+	width: 800px;
+	height:600px;
+}
            
 
 
