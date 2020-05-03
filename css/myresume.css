@@ -57,16 +57,29 @@ a:active, a:focus, a:hover {
 	font-size: 1.2rem;
 }
 
-.div{ 
-	display: table; 
-        border-collapse: collapse;
-        width: 800px;
-        height: 600px;
-}
-.img{
-	width: 800px;
-	height:600px;
-}
+.table{
+                display: table; 
+                border-collapse: collapse;
+                width: 800px;
+                height: 600px;
+            }
+            .tr{
+                display: table-row;
+                height: 600px;
+            }
+            .td{
+                display: table-cell;
+                width: 800px;
+                text-align: center;
+                vertical-align: middle;
+                border: solid 3px red;
+                table-layout: fixed;
+            }
+            .table .td img{
+                width: 800px;
+                height: 600px;
+                display:block;
+            }
            
 
 
