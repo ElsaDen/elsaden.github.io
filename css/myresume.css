@@ -57,9 +57,9 @@ a:active, a:focus, a:hover {
 	font-size: 1.2rem;
 }
 
-.gallery {
-	padding:5px 5px 10px;
-	border:1px solid #E9E6E6;
+.border{
+	width:250px
+        height:200px
 }
            
 
