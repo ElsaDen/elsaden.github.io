@@ -61,7 +61,10 @@ div#container {
 	background-color: LAVENDER;
 	padding: 0.5rem;
 }
-
+h1#gallery {
+	color: #663399;
+	font-size: 4rem;
+}
 
 
 .timeline {
