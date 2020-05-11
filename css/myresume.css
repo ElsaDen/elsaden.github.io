@@ -57,15 +57,18 @@ a:active, a:focus, a:hover {
 	font-size: 1.2rem;
 }
 
-div#container {
-	background-color: LAVENDER;
-	padding: 0.5rem;
+.card-img-top {
+    width: 100%;
+    border-top-left-radius: calc(.25rem - 1px);
+    border-top-right-radius: calc(.25rem - 1px);
 }
-h1#gallery {
-	color: #663399;
-	font-size: 4rem;
+img {
+    vertical-align: middle;
+    border-style: none;
 }
-
+*, ::after, ::before {
+    box-sizing: border-box;
+}
 
 .timeline {
   position: relative;
