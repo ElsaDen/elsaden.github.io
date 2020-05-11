@@ -57,8 +57,12 @@ a:active, a:focus, a:hover {
 	font-size: 1.2rem;
 }
 
-.border{
-	width:400px; height:300px;
+div#container {
+	background-color: PAPAYAWHIP;
+	padding: 0.5rem;
+}
+p {
+        color: #ffffff;
 }
            
 
