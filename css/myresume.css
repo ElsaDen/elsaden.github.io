@@ -58,10 +58,14 @@ a:active, a:focus, a:hover {
 }
 
 div#container {
-	background-color: PAPAYAWHIP;
+	background-color: LAVENDER;
 	padding: 0.5rem;
 }
 
+h1 {
+	color: #663399;
+	font-size: 3rem;
+}
 
 .timeline {
   position: relative;
