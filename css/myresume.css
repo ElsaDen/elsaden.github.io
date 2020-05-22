@@ -83,11 +83,11 @@ img {
   content: '';
   position: absolute;
   width: 6px;
-  background-color: white;
+  background-color: #FFD6C4;
   top: 0;
   bottom: 0;
   left: 50%;
-  margin-left: -3px;
+  margin-left: 0px;
 }
 
 /* Container around content */
