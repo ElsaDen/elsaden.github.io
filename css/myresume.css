@@ -67,3 +67,37 @@ img {
 
 
 
+@media screen and (max-width: 992px)
+.timeline-block {
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 25px;
+}
+
+.timeline-left {
+    left: 0;
+}
+
+.timeline-block {
+    padding: 10px 40px;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+}
+
+div {
+    display: block;
+}
+
+.timeline-block::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: -12px;
+    background-color: white;
+    border: 4px solid #FFD6C4;
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+}
