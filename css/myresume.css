@@ -104,7 +104,7 @@ div {
 
 .timeline::after {
     content: '';
-    background-color: #4028EB;
+    background-color: #FFD6C4;
     position: absolute;
     width: 6px;
     top: 0;
