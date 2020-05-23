@@ -111,6 +111,6 @@ h3 {
 
 @media screen and (max-width: 992px)
 .timeline-left::after, .timeline-right::after {
-    left: 17px;
+    left: 31px;
 }
 
