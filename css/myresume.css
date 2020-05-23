@@ -83,3 +83,16 @@ img {
     left: 50%;
     margin-left: -3px;
 }
+
+.timeline-block::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: -12px;
+    background-color: white;
+    border: 4px solid #FFD6C4;
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+}
