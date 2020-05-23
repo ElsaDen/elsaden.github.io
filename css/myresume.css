@@ -101,3 +101,14 @@ div {
     border-radius: 50%;
     z-index: 1;
 }
+
+.timeline::after {
+    content: '';
+    background-color: #4028EB;
+    position: absolute;
+    width: 6px;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+}
