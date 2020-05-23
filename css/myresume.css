@@ -117,7 +117,7 @@ img {
 }
 
 .left::before {
-  content: "2019";
+  content: "";
   height: 0;
   position: absolute;
   top: 22px;
@@ -130,7 +130,7 @@ img {
 }
 
 .right::before {
-  content: "2016";
+  content: "";
   height: 0;
   position: absolute;
   top: 22px;
