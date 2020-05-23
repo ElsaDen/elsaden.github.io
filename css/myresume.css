@@ -104,3 +104,12 @@ h3 {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 }
+
+,::after, ::before {
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 992px)
+.timeline-left::after, .timeline-right::after {
+    left: 17px;
+}
