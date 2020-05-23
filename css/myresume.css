@@ -100,33 +100,3 @@ h4 {
   overflow: hidden;
   transition: max-height 0.2s ease-out;
 }
-</style>
-
-<script>
-var acc = document.getElementsByClassName("accordion");
-var i;
-
-for (i = 0; i < acc.length; i++) {
-  acc[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var panel = this.nextElementSibling;
-    if (panel.style.maxHeight) {
-      panel.style.maxHeight = null;
-    } else {
-      panel.style.maxHeight = panel.scrollHeight + "px";
-    } 
-  });
-}
-</script>
-
-.accordion:after {
-  content: '\02795'; /* Unicode character for "plus" sign (+) */
-  font-size: 13px;
-  color: #777;
-  float: right;
-  margin-left: 5px;
-}
-
-.active:after {
-  content: "\2796"; /* Unicode character for "minus" sign (-) */
-}
