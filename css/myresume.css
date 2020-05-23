@@ -112,3 +112,8 @@ div {
     left: 50%;
     margin-left: -3px;
 }
+
+@media screen and (max-width: 992px)
+.timeline::after {
+    left: 31px;
+}
